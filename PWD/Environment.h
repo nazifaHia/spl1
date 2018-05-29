@@ -37,7 +37,7 @@ Better Alternative: Set from the
 //#undef UTILITY_EXPORTS
 //#define UTILITY_EXPORTS
 /* Define _STATICLIB if you are building a static library
-	or if you are linking with static libaries. 
+	or if you are linking with static libaries.
 	Undefine if you are builing a DLL or linking with a DLL. */
 /* Again, it is best and easiest to define this in the project */
 //#define _STATICLIB

@@ -4,12 +4,12 @@
 
 /* Define the LIBSPEC modifier for function names and other imported/exported
  * symblols. This is only required when building for Win32; you wouldn't
- * need this under, for example, UNIX/Linux. The following #ifdef is 
+ * need this under, for example, UNIX/Linux. The following #ifdef is
  * redundant (we're only building for Win32), but it's a good habit in case
- * you need to build portable code in the future 
+ * you need to build portable code in the future
  */
 #ifdef WIN32
-/* When building a static library, the only modifier needed is 
+/* When building a static library, the only modifier needed is
    extern "C" when calling from a C++ program */
 #ifdef _STATICLIB
 #if defined (__cplusplus)
@@ -57,12 +57,12 @@
 
 /* Commonly used functions. */
 
-LIBSPEC BOOL ConsolePrompt (LPCTSTR, LPTSTR, DWORD, BOOL);
-LIBSPEC BOOL PrintStrings (HANDLE, ...);
-LIBSPEC BOOL PrintMsg (HANDLE, LPCTSTR);
-LIBSPEC VOID ReportError (LPCTSTR, DWORD, BOOL);
+//LIBSPEC BOOL ConsolePrompt (LPCTSTR, LPTSTR, DWORD, BOOL);
+//LIBSPEC BOOL PrintStrings (HANDLE, ...);
+//LIBSPEC BOOL PrintMsg (HANDLE, LPCTSTR);
+//LIBSPEC VOID ReportError (LPCTSTR, DWORD, BOOL);
 LIBSPEC VOID ReportException (LPCTSTR, DWORD);
-LIBSPEC DWORD Options (int, LPCTSTR *, LPCTSTR, ...);
+//LIBSPEC DWORD Options (int, LPCTSTR *, LPCTSTR, ...);
 LIBSPEC LPTSTR SkipArg (LPTSTR, int, int, LPTSTR argv[]);
 LIBSPEC BOOL WindowsVersionOK (DWORD, DWORD);
 LIBSPEC VOID GetArgs (LPCTSTR, int *, LPTSTR *);
@@ -100,7 +100,7 @@ BOOL ChangeFilePermissions (DWORD, LPTSTR, LPDWORD, LPDWORD);
 #define _memtchr memchr
 #endif
 
-/* 
+/*
  * Define a macro that delays for an amount of time proportional
  * to the integer parameter. The delay is a CPU delay and does not
  * voluntarily yield the processor. This simulates computation.
